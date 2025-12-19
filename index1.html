@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style1.css">
+
+  <title>Rekha Portfolio</title>
+</head>
+<body>
+
+<header>
+  <a href="#" class="logo">Gottipati Rekha</a>
+  <nav>
+    <a href="#" class="nav-link active" data-section="home">Home</a>
+    <a href="#" class="nav-link" data-section="about">About Me</a>
+    <a href="#" class="nav-link" data-section="services">Services</a>
+    <a href="#" class="nav-link" data-section="projects">Projects</a>
+    <a href="#" class="nav-link" data-section="experience">Experience</a>
+    <a href="#" class="nav-link" data-section="contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HOME -->
+<section id="home" class="section home active">
+  <div class="home-img">
+    <img src="main.jpeg" alt="Profile Image">
+  </div>
+
+  <div class="home-content">
+    <h1>Hi, I'm <span>Rekha</span></h1>
+    <h3 class="typing-text">I'm a <span></span></h3>
+
+    <p>
+      A tech enthusiast and B.Tech student. I love coding, designing websites,
+      and exploring new tech trends.
+    </p>
+
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/rekha-gottipati-696761322" target="_blank">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/Gottipatirekha14" target="_blank">
+        <i class="fa-brands fa-github"></i>
+      </a>
+    </div>
+
+    <a href="#" class="btn">Resume</a>
+  </div>
+</section>
+
+<!-- ABOUT ME -->
+<section id="about" class="section about">
+  <h2>About Me</h2>
+
+  <!-- BOXES -->
+  <div class="about-boxes">
+
+    <div class="about-box" data-tab="personal">
+      <i class="fa-solid fa-user"></i>
+      <h3>Personal Info</h3>
+    </div>
+
+    <div class="about-box" data-tab="qualification">
+      <i class="fa-solid fa-graduation-cap"></i>
+      <h3>Qualifications</h3>
+    </div>
+
+    <div class="about-box" data-tab="skills">
+      <i class="fa-solid fa-code"></i>
+      <h3>Skills</h3>
+    </div>
+
+  </div>
+
+  <!-- CONTENT -->
+  <div class="about-content">
+
+    <div class="about-panel" id="personal">
+      <p><strong>Name:</strong> Gottipati Rekha</p>
+      <p><strong>Course:</strong> B.Tech – AI & DS</p>
+      <p><strong>Year:</strong> 2nd Year (pursuing)</p>
+      <p><strong>Interests:</strong> Web Development, Competitive Coding, Data Science, Machine Learning</p>
+    </div>
+
+    <div class="about-panel" id="qualification">
+      <p><strong>B.Tech:</strong> AI & DS (Ongoing)</p>
+      <p><strong>Intermediate:</strong> MPC</p>
+      <p><strong>Schooling:</strong> SSC</p>
+    </div>
+
+    <div class="about-panel" id="skills">
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Python, Java, C</li>
+        <li>Data Structures & Algorithms</li>
+        <li>Git & GitHub</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- SERVICES -->
+<section id="services" class="section services">
+  <h2>Services</h2>
+
+  <div class="services-container">
+
+    <div class="service-box">
+      <i class="fa-solid fa-code"></i>
+      <h3>Competitive Coding</h3>
+      <p>
+        Proficient in competitive coding, actively practice competitive coding on LeetCode, CodeChef, and Codeforces. Solving algorithmic challenges using C, Python, and Java to strengthen problem-solving and logical thinking skills.
+      </p>
+    </div>
+
+    <div class="service-box">
+      <i class="fa-solid fa-laptop-code"></i>
+      <h3>Web Development</h3>
+      <p>
+        Skilled in web development, proficient in HTML, CSS and JavaScript with a focus on creating user-friendly and responsive web applications.
+      </p>
+    </div>
+
+  </div>
+</section>
+<!-- PROJECTS -->
+<section id="projects" class="section projects">
+  <h2>Projects</h2>
+
+  <div class="projects-container">
+
+    <!-- Portfolio Project -->
+    <div class="project-card">
+      <h3>Personal Portfolio Website</h3>
+      <p>
+        Designed and developed a responsive personal portfolio using HTML, CSS,
+        and JavaScript with smooth animations and a modern user interface.
+      </p>
+      <span class="tech">HTML • CSS • JavaScript</span>
+    </div>
+
+    <!-- Coming Soon -->
+    <p class="coming-soon">
+      More projects will be uploaded soon...
+    </p>
+
+  </div>
+</section>
+
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section experience">
+  <h2>Experience</h2>
+
+  <div class="experience-container">
+
+    <div class="experience-card">
+      <h3>Internship</h3>
+      <p>
+        Currently pursuing an internship through Infosys Springboard, gaining hands-on experience in technology fundamentals, problem-solving, and real-world applications.
+      </p>
+    </div>
+
+    <div class="experience-card">
+      <h3>EcoPackAI (Ongoing Project)</h3>
+      <p>
+        EcoPackAI is an AI-driven Full Stack project focused on promoting sustainable packaging by analyzing and classifying materials based on their recyclability and environmental impact.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact" class="section contact">
+  <h2>Let’s Work Together</h2>
+
+  <p class="contact-text">
+    Seeking synergies through collaborations, freelancing, and internship opportunities. Let’s create together while fostering growth and innovation.
+  </p>
+
+  <div class="contact-info">
+
+    <div class="contact-item">
+      <i class="fa-solid fa-envelope"></i>
+      <span>rekhagottipati29@gmail.com</span>
+    </div>
+
+    <div class="contact-item">
+      <i class="fa-solid fa-house"></i>
+      <span>Native: Guntur Studying: Bhimavaram</span>
+    </div>
+
+    <div class="contact-item">
+      <i class="fa-solid fa-phone"></i>
+      <span>+91 7702946298</span>
+    </div>
+
+  </div>
+</section>
+
+
+<script src="script.js"></script>
+</body>
+</html>
